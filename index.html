@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>教育委員会向け PTA運営適正化ポータル</title>
+  <meta name="description" content="PTAと学校の関係性を適正化し、公私分離・任意加入・個人情報・会費徴収・教職員服務を一体で点検する教育委員会向け資料。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+
+  <header class="site-header">
+    <div class="header-top">
+      <a class="brand" href="#top" aria-label="トップへ">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" role="img">
+            <path d="M4 20V7.8L12 4l8 3.8V20h-5v-6H9v6H4Z"></path>
+            <path d="M9 10h2M13 10h2M9 13h2M13 13h2" class="mark-line"></path>
+          </svg>
+        </span>
+        <span>
+          <strong>PTA運営適正化</strong>
+          <small>教育委員会向け実務ポータル</small>
+        </span>
+      </a>
+      <nav class="top-nav" aria-label="主要ナビゲーション">
+        <a href="#principles">5原則</a>
+        <a href="#risks">リスク</a>
+        <a href="#flow">適正化フロー</a>
+        <a href="#boundary">境界線</a>
+        <a href="#roadmap">ロードマップ</a>
+        <a href="#materials">根拠</a>
+      </nav>
+      <button class="print-button" type="button" id="printButton">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6 9V3h12v6M6 17H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M6 14h12v7H6z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"></path>
+        </svg>
+        印刷
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-band" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="context-line">対象：教育委員会・学校長・学校事務担当者</p>
+          <h1 id="hero-title"><span class="nowrap">PTA運営適正化</span> <span>指針</span></h1>
+          <p class="lead">
+            PTAを「なくす」話ではありません。任意団体であるPTAと、学校の公的資源・会計・個人情報・教職員服務を分けることで、加入、会費、名簿、役員選出、教員負担の論点を一体で解くための実務画面です。
+          </p>
+          <div class="decision-strip" aria-label="教育委員会が最初に決めること">
+            <a href="#notice" class="decision-item">
+              <span>1</span>
+              <strong>通知する</strong>
+              <small>学校側関与の基準を明示</small>
+            </a>
+            <a href="#checklist" class="decision-item">
+              <span>2</span>
+              <strong>点検する</strong>
+              <small>会計・情報・服務を確認</small>
+            </a>
+            <a href="#roadmap" class="decision-item">
+              <span>3</span>
+              <strong>分離する</strong>
+              <small>年度内の工程を設定</small>
+            </a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="結論">
+          <h2>結論</h2>
+          <p>
+            PTA問題の核心は、PTA活動そのものではなく、学校がPTAの内部事務を学校事務のように扱っている構造です。
+          </p>
+          <dl class="summary-metrics">
+            <div>
+              <dt>点検軸</dt>
+              <dd>5</dd>
+            </div>
+            <div>
+              <dt>初動期間</dt>
+              <dd>90日</dd>
+            </div>
+            <div>
+              <dt>目標</dt>
+              <dd>公私分離</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container executive-summary" aria-labelledby="summary-title">
+      <div>
+        <h2 id="summary-title">教育委員会が扱うべき対象</h2>
+        <p>
+          PTAを直接統制することではなく、学校・教職員・学校保有情報・学校会計・学校施設・学校媒体が、私的団体の内部事務に不適切に使われていないかを管理することです。
+        </p>
+      </div>
+      <div class="scope-map" role="img" aria-label="学校とPTAと保護者の役割分担">
+        <div class="scope-node public">
+          <strong>学校</strong>
+          <span>教育活動・児童生徒の公平性・公的資源管理</span>
+        </div>
+        <div class="scope-connector">連携</div>
+        <div class="scope-node civic">
+          <strong>PTA</strong>
+          <span>加入意思確認・会費・名簿・役員選出・広報</span>
+        </div>
+        <div class="scope-connector">説明</div>
+        <div class="scope-node parent">
+          <strong>保護者</strong>
+          <span>自由意思による参加・非参加・協力</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band muted" id="principles" aria-labelledby="principles-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          <div>
+            <h2 id="principles-title">5つの分離原則</h2>
+            <p>PTA適正化推進委員会の主張を、教育委員会が通知・点検に使える単位へ整理。</p>
+          </div>
+        </div>
+        <div class="principle-grid">
+          <article class="principle-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm8-1 2 2 4-5M2 21a6 6 0 0 1 12 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+            <h3>加入の自由</h3>
+            <p>入学・進級・在籍により当然加入と扱わず、保護者本人の申込みを起点にする。</p>
+          </article>
+          <article class="principle-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+            </span>
+            <h3>契約原因の確認</h3>
+            <p>会則、会費額、使途、退会方法、個人情報利用目的を示し、申込記録をPTAが管理する。</p>
+          </article>
+          <article class="principle-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 7.7 8 9 4.6-1.3 8-4.5 8-9V6l-8-3Zm0 6v5M12 17h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+            <h3>情報の分離</h3>
+            <p>学校保有情報を、PTAの会員管理、徴収、役員選出のために当然提供しない。</p>
+          </article>
+          <article class="principle-card">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h16M6 7v12h12V7M9 11h6M9 15h6M8 4h8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg>
+            </span>
+            <h3>会計の分離</h3>
+            <p>学校徴収金、教材費、給食費等の流れに、PTA会費を抱き合わせない。</p>
+          </article>
+          <article class="principle-card emphasis">
+            <span class="icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 13h6l2-8 2 14 2-6h4M4 20h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+            <h3>労務の分離</h3>
+            <p>勤務時間中の集金、督促、記帳、名簿作成、役員選出、広報編集を学校職務化しない。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="risks" aria-labelledby="risks-title">
+      <div class="section-heading">
+        <span class="section-number">2</span>
+        <div>
+          <h2 id="risks-title">現状リスクを一枚で見る</h2>
+          <p>「慣例でやってきた」運用ほど、学校側の会計・情報・服務リスクとして切り分けます。</p>
+        </div>
+      </div>
+      <div class="risk-layout">
+        <div class="risk-table-wrap">
+          <table class="risk-table">
+            <caption>典型的な慣行と確認ポイント</caption>
+            <thead>
+              <tr>
+                <th>慣行</th>
+                <th>発生しやすい問題</th>
+                <th>確認すべき事項</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>入学時に当然加入扱い</td>
+                <td>任意性・契約意思の不明確化</td>
+                <td>入会申込書、会則提示、退会方法</td>
+              </tr>
+              <tr>
+                <td>学校徴収金とPTA会費を同時引落し</td>
+                <td>公私会計の混同、未加入者への請求</td>
+                <td>口座名義、請求根拠、督促主体</td>
+              </tr>
+              <tr>
+                <td>学校名簿をPTAへ提供</td>
+                <td>目的外利用・提供根拠の不足</td>
+                <td>利用目的、同意記録、提供先管理</td>
+              </tr>
+              <tr>
+                <td>担任が申込・会費袋を回収</td>
+                <td>職務と私的団体事務の混同</td>
+                <td>回収者、勤務時間、校務システム利用</td>
+              </tr>
+              <tr>
+                <td>学校媒体で加入・会費案内</td>
+                <td>公的媒体による私的団体勧誘の誤認</td>
+                <td>文責、掲載基準、問い合わせ先</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="risk-score" aria-label="優先順位">
+          <h3>優先順位</h3>
+          <ol>
+            <li><span class="priority high"></span>学校徴収金と会費の混在</li>
+            <li><span class="priority high"></span>学校名簿のPTA転用</li>
+            <li><span class="priority mid"></span>勤務時間中のPTA内部事務</li>
+            <li><span class="priority mid"></span>自動加入・退会届方式</li>
+            <li><span class="priority low"></span>学校媒体・施設利用の基準未整備</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band" id="flow" aria-labelledby="flow-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          <div>
+            <h2 id="flow-title">適正化フロー</h2>
+            <p>結論を急がず、学校側関与の事実を起点にして、停止・分離・説明へ進めます。</p>
+          </div>
+        </div>
+
+        <div class="flowchart" role="list" aria-label="PTA運営適正化の5ステップ">
+          <div class="flow-step" role="listitem">
+            <span>1</span>
+            <strong>現状把握</strong>
+            <small>会費・名簿・勤務時間・媒体・施設を棚卸し</small>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-step" role="listitem">
+            <span>2</span>
+            <strong>境界整理</strong>
+            <small>学校職務、連携、PTA内部事務に分類</small>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-step" role="listitem">
+            <span>3</span>
+            <strong>停止対象</strong>
+            <small>抱き合わせ徴収・名簿提供・督促代行を止める</small>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-step" role="listitem">
+            <span>4</span>
+            <strong>代替設計</strong>
+            <small>PTA自身の申込・徴収・問い合わせ導線へ</small>
+          </div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-step" role="listitem">
+            <span>5</span>
+            <strong>周知・点検</strong>
+            <small>保護者説明と年度点検で定着</small>
+          </div>
+        </div>
+
+        <div class="causal-map" aria-labelledby="causal-title">
+          <h3 id="causal-title">学校とPTAの関係性を適正化すると、連鎖して解けること</h3>
+          <div class="causal-grid">
+            <div class="cause">学校がPTA事務を抱え込まない</div>
+            <div class="cause">PTAが自分で会員・会計を管理する</div>
+            <div class="cause">保護者が自由意思で選べる</div>
+            <div class="result">教職員の私的団体事務が減る</div>
+            <div class="result">個人情報提供の説明責任が明確になる</div>
+            <div class="result">非加入・未納による児童生徒差別を防ぐ</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="boundary" aria-labelledby="boundary-title">
+      <div class="section-heading">
+        <span class="section-number">4</span>
+        <div>
+          <h2 id="boundary-title">学校・PTA・保護者の境界線</h2>
+          <p>「協力してよいこと」と「学校が代行してはいけないこと」を同じ表で見る。</p>
+        </div>
+      </div>
+      <div class="boundary-grid" role="img" aria-label="公的領域、連携領域、PTA内部事務の境界">
+        <div class="lane lane-school">
+          <h3>学校が担う</h3>
+          <ul>
+            <li>教育課程・成績・生徒指導</li>
+            <li>児童生徒の安全確保</li>
+            <li>学校徴収金・公的会計</li>
+            <li>学校保有個人情報の管理</li>
+          </ul>
+        </div>
+        <div class="lane lane-shared">
+          <h3>条件付きで連携</h3>
+          <ul>
+            <li>学校行事への協力依頼</li>
+            <li>施設利用の許可</li>
+            <li>学校媒体への掲載</li>
+            <li>地域連携・見守り活動</li>
+          </ul>
+        </div>
+        <div class="lane lane-pta">
+          <h3>PTAが担う</h3>
+          <ul>
+            <li>入会申込・退会受付</li>
+            <li>会員名簿・会費徴収</li>
+            <li>役員選出・当番編成</li>
+            <li>広報・問い合わせ対応</li>
+          </ul>
+        </div>
+      </div>
+      <div class="boundary-note">
+        <strong>判断基準：</strong>
+        児童生徒の学校生活に直結する公的責任は学校、団体の内部管理はPTA。境界にある活動は、任意性、文責、個人情報、会計、勤務時間の5点を明示してから扱います。
+      </div>
+    </section>
+
+    <section class="section-band muted" id="roadmap" aria-labelledby="roadmap-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-number">5</span>
+          <div>
+            <h2 id="roadmap-title">実施ロードマップ</h2>
+            <p>年度途中でも着手しやすいよう、通知、調査、停止、移行を分けて進行します。</p>
+          </div>
+        </div>
+        <div class="timeline">
+          <div class="timeline-head">
+            <span>フェーズ</span>
+            <span>0-1か月</span>
+            <span>1-3か月</span>
+            <span>3-6か月</span>
+            <span>6-12か月</span>
+          </div>
+          <div class="timeline-row">
+            <span>通知・基準化</span>
+            <div class="bar span-1"></div>
+          </div>
+          <div class="timeline-row">
+            <span>学校別点検</span>
+            <div class="bar span-2 offset-1"></div>
+          </div>
+          <div class="timeline-row">
+            <span>徴収・名簿の分離</span>
+            <div class="bar span-2 offset-2"></div>
+          </div>
+          <div class="timeline-row">
+            <span>PTA自立導線</span>
+            <div class="bar span-2 offset-3"></div>
+          </div>
+          <div class="timeline-row">
+            <span>年度点検・改善</span>
+            <div class="bar span-1 offset-4"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container action-area" id="checklist" aria-labelledby="checklist-title">
+      <div class="section-heading">
+        <span class="section-number">6</span>
+        <div>
+          <h2 id="checklist-title">点検チェックリスト</h2>
+          <p>各学校から回答を集める前に、教育委員会側で確認すべき項目です。</p>
+        </div>
+      </div>
+      <div class="checklist-layout">
+        <form class="checklist" aria-describedby="progressText">
+          <label><input type="checkbox"> PTA加入申込記録の有無、退会方法、会則・会費額の提示方法を確認した</label>
+          <label><input type="checkbox"> PTA会費を学校徴収金・学校口座・学校システムに乗せていないか確認した</label>
+          <label><input type="checkbox"> 学校からPTAへの個人情報提供の項目、同意、記録、廃棄方法を確認した</label>
+          <label><input type="checkbox"> 教職員が勤務時間中に集金、督促、名簿、役員選出、広報を行っていないか確認した</label>
+          <label><input type="checkbox"> 校務分掌、学校経営計画、職員会議資料にPTA内部事務が入っていないか確認した</label>
+          <label><input type="checkbox"> 学校HP、配信アプリ、印刷機、施設利用の掲載基準と文責を確認した</label>
+          <label><input type="checkbox"> 非加入・未納家庭の児童生徒に不利益が生じない運用を確認した</label>
+          <label><input type="checkbox"> PTAが自分で申込、徴収、問い合わせを受ける代替導線を設計した</label>
+        </form>
+        <aside class="progress-card">
+          <div class="progress-ring" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="48"></circle>
+              <circle cx="60" cy="60" r="48" id="progressCircle"></circle>
+            </svg>
+            <strong id="progressValue">0%</strong>
+          </div>
+          <p id="progressText">0 / 8項目 完了</p>
+          <button class="secondary-button" type="button" id="resetChecks">リセット</button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section-band" id="notice" aria-labelledby="notice-title">
+      <div class="container notice-grid">
+        <div>
+          <div class="section-heading compact">
+            <span class="section-number">7</span>
+            <div>
+              <h2 id="notice-title">通知文案</h2>
+              <p>各学校長宛て通知の骨子としてそのまま調整できる文面です。</p>
+            </div>
+          </div>
+          <div class="notice-box" id="noticeText">
+            <p>PTA等学校関係団体は、学校とは別個の任意団体であることを明確にし、学校の公的資源、教職員の勤務時間、児童生徒及び保護者の個人情報、学校徴収金その他の学校管理事務と、PTAの団体事務とを分離してください。</p>
+            <p>PTAへの加入、退会、会費納入、役員就任、活動参加について、保護者又は児童生徒に対し、事実上の強制、圧力、不利益取扱い又は誤認を生じさせる運用を行わないでください。</p>
+            <p>教職員が勤務時間中に、PTA会費の徴収、未納確認、督促、返金、会計処理、PTA名簿作成、役員選出、広報、物品購入その他PTA固有の事務に従事する運用は停止してください。</p>
+            <p>各学校長は、上記について点検し、是正が必要な事項及び分離に向けた工程を教育委員会へ報告してください。</p>
+          </div>
+        </div>
+        <aside class="notice-actions">
+          <h3>運用時の添付資料</h3>
+          <ul>
+            <li>学校別点検表</li>
+            <li>PTA入会申込書モデル</li>
+            <li>学校媒体・施設利用基準</li>
+            <li>保護者説明文ひな形</li>
+          </ul>
+          <button class="copy-button" type="button" id="copyNotice">通知文案をコピー</button>
+          <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container" id="materials" aria-labelledby="materials-title">
+      <div class="section-heading">
+        <span class="section-number">8</span>
+        <div>
+          <h2 id="materials-title">根拠資料・確認先</h2>
+          <p>公開資料をもとに構成。最終判断は自治体の条例、規則、要綱、服務取扱い、個人情報取扱いに照らして確認してください。</p>
+        </div>
+      </div>
+      <div class="materials-grid">
+        <a class="material-card" href="https://ptaorg.github.io/ed/" target="_blank" rel="noreferrer">
+          <strong>元資料</strong>
+          <span>教育委員会向け PTA運営適正化指針</span>
+        </a>
+        <a class="material-card" href="https://ptaorg.github.io/pta/" target="_blank" rel="noreferrer">
+          <strong>論点整理</strong>
+          <span>PTA適正化推進委員会 研究サイト</span>
+        </a>
+        <a class="material-card" href="https://www.digital.go.jp/resources/govdashboard/workstyle-reform-schools" target="_blank" rel="noreferrer">
+          <strong>働き方改革</strong>
+          <span>デジタル庁 学校における働き方改革ダッシュボード</span>
+        </a>
+        <a class="material-card" href="https://www.digital.go.jp/resources/govdashboard/workstyle-reform-schools/description" target="_blank" rel="noreferrer">
+          <strong>学校徴収金</strong>
+          <span>公会計化または教師が関与しない徴収・管理の定義</span>
+        </a>
+        <a class="material-card" href="https://laws.e-gov.go.jp/law/324AC0000000207" target="_blank" rel="noreferrer">
+          <strong>社会教育法</strong>
+          <span>社会教育関係団体の定義、統制的支配の禁止</span>
+        </a>
+        <a class="material-card" href="https://laws.e-gov.go.jp/law/325AC0000000261" target="_blank" rel="noreferrer">
+          <strong>地方公務員法</strong>
+          <span>第35条 職務専念義務</span>
+        </a>
+        <a class="material-card" href="https://personal-info.e-gov.go.jp/contents/about-personal-info" target="_blank" rel="noreferrer">
+          <strong>個人情報保護</strong>
+          <span>行政機関等の利用・提供制限、利用目的の考え方</span>
+        </a>
+        <a class="material-card" href="https://zen-p.net/tp/p301.html" target="_blank" rel="noreferrer">
+          <strong>PTA側資料</strong>
+          <span>全国PTA連絡協議会 PTA事務の学校委託</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>この資料は公開情報をもとにした実務整理です。法的助言ではなく、自治体ごとの規程確認を前提にしています。</p>
+      <a href="#top">ページ上部へ</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
